@@ -19,6 +19,7 @@ top: 0px;
 }
 
 h1 {
+	position: absolute;
 	box-sizing: border-box;
 	width: 72.49px;
 	height: 44.91px;
@@ -32,6 +33,7 @@ h1 {
 	color: #FFFFFF;
 	border: 1.18841px solid #FFFFFF;
 	margin-left: 220px;
+	margin-top: 19px;
 }
 
 .nav_item {
@@ -44,12 +46,19 @@ h1 {
 	line-height: 140%;
 	color: #FFFFFF;
 	padding-left: 58px;
+	text-decoration: none;
 }
 
-a:link {
+.nav_item a:link {
+	display: inline;
 	text-decoration: none;
 	color: #FFFFFF;
 	}
+
+.nav_item a:hover {
+	background-color: #ddd;
+  color: black;
+}
 
 .watch_online {
 	background-image: url("../../assets/giant_panda.png");
@@ -101,35 +110,17 @@ margin-top: 626px;
 color: #FFFFFF;
 }
 
-.backstage {
-position:  absolute;
-background-image: url("../../assets/flower_foto1.png");
+.backstage_wrap {
+background-image: url(../../assets/flower_foto1.png);
 background-repeat: no-repeat;
 width: 293px;
 height: 605px;
-left: 1400px;
-top: 792px;
-}
-
-.img_container {
-	position: absolute;
-height: 403px;
-left: 219px;
-right: 220px;
-top: 920px
-}
-
-.img_cap {
-position: absolute;
-width: 609px;
-height: 403px;
-right: 552px;
-top: 0px;
+margin-left: 1400px;
+top: 712px;
 
 }
 
 footer {
-	position: absolute;
 height: 443px;
 width: 1600px;
 background: #111115;
