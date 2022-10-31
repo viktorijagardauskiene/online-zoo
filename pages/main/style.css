@@ -65,7 +65,7 @@ h1 {
 	background-size: cover;
 	height: 780px;
 	width: 1600px;
-	text-align: right;
+	text-align: center;
 }
 
 .watch {
@@ -78,14 +78,14 @@ font-size: 106.496px;
 line-height: 75%;
 text-align: center;
 position: absolute;
- left: calc(50% - 500.31px/2 + 330.15px);
+left: 880px;
 margin-top: 166px;
 }
 
 .ellipse {
 	 position: absolute;
-	 left: calc(50% - 465px/2 + 239.5px);
-margin-top: 92px;
+	 margin-top: 92px;
+	 left: 807px;
 }
 
 .favorite {
@@ -105,8 +105,9 @@ line-height: 140%;
 border-style: none;
 text-align: center;
 text-transform: uppercase;
-margin-right: 319px;
-margin-top: 626px;
+position: absolute;
+top:  626px;
+left: 983px;
 color: #FFFFFF;
 }
 
