@@ -1,0 +1,136 @@
+* {
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+body {
+	width: 1600px;
+}
+
+header {
+	width: 1600px;
+	height: 80px;
+	background: #111115;
+	text-align: center;
+	position: absolute;
+	left: 0px;
+top: 0px;
+}
+
+h1 {
+	box-sizing: border-box;
+	width: 72.49px;
+	height: 44.91px;
+
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 19.0145px;
+	line-height: 120%;
+	text-align: center;
+	color: #FFFFFF;
+	border: 1.18841px solid #FFFFFF;
+	margin-left: 220px;
+}
+
+.nav_item {
+	display: inline;
+	list-style-type: none;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 140%;
+	color: #FFFFFF;
+	padding-left: 58px;
+}
+
+a:link {
+	text-decoration: none;
+	color: #FFFFFF;
+	}
+
+.watch_online {
+	background-image: url("../../assets/giant_panda.png");
+	background-size: cover;
+	height: 780px;
+	width: 1600px;
+	text-align: right;
+}
+
+.watch {
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 106.496px;
+line-height: 75%;
+text-align: center;
+position: absolute;
+ left: calc(50% - 500.31px/2 + 330.15px);
+margin-top: 166px;
+}
+
+.ellipse {
+	 position: absolute;
+	 left: calc(50% - 465px/2 + 239.5px);
+margin-top: 92px;
+}
+
+.favorite {
+ color: #FFEE2E;
+}
+
+.btn_watch_online {
+width: 298px;
+height: 54px;
+background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+border-radius: 25px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 140%;
+border-style: none;
+text-align: center;
+text-transform: uppercase;
+margin-right: 319px;
+margin-top: 626px;
+color: #FFFFFF;
+}
+
+.backstage {
+position:  absolute;
+background-image: url("../../assets/flower_foto1.png");
+background-repeat: no-repeat;
+width: 293px;
+height: 605px;
+left: 1400px;
+top: 792px;
+}
+
+.img_container {
+	position: absolute;
+height: 403px;
+left: 219px;
+right: 220px;
+top: 920px
+}
+
+.img_cap {
+position: absolute;
+width: 609px;
+height: 403px;
+right: 552px;
+top: 0px;
+
+}
+
+footer {
+	position: absolute;
+height: 443px;
+width: 1600px;
+background: #111115;
+}
