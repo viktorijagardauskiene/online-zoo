@@ -1,7 +1,9 @@
 * {
 	margin:0;
 	padding:0;
-	border:0;
+	/* border:0; */
+	font-family: 'Roboto';
+	font-style: normal;
 }
 
 body {
@@ -23,9 +25,6 @@ h1 {
 	box-sizing: border-box;
 	width: 72.49px;
 	height: 44.91px;
-
-	font-family: 'Roboto';
-	font-style: normal;
 	font-weight: 400;
 	font-size: 19.0145px;
 	line-height: 120%;
@@ -36,11 +35,20 @@ h1 {
 	margin-top: 19px;
 }
 
+#logo_bamboo {
+	position: absolute;
+	left: 227.13px;
+	top: 38.64px;
+}
+
+#nav {
+	padding-top: 29px;
+	padding-left: 70px;
+}
+
 .nav_item {
 	display: inline;
 	list-style-type: none;
-	font-family: 'Roboto';
-	font-style: normal;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 140%;
@@ -56,33 +64,41 @@ h1 {
 	}
 
 .nav_item a:hover {
-	background-color: #ddd;
-  color: black;
+	color: #F9804B;
 }
 
-.watch_online {
+#designed {
+	padding-left: 438px;
+}
+
+.container {
+	width: 1600px;
+	position: flex;
+	margin: 0px;
+}
+
+#watch_online > .container {
 	background-image: url("../../assets/giant_panda.png");
 	background-size: cover;
-	height: 780px;
+	height: 700px;
 	width: 1600px;
 	text-align: center;
+	position: block;
 }
 
-.watch {
+.container > div > p {
 	text-transform: uppercase;
 	color: #FFFFFF;
-	font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 106.496px;
-line-height: 75%;
-text-align: center;
-position: absolute;
-left: 880px;
-margin-top: 166px;
+	font-weight: 700;
+	font-size: 106.496px;
+	line-height: 75%;
+	text-align: center;
+	position: absolute;
+	left: 880px;
+	margin-top: 166px;
 }
 
-.ellipse {
+#watch_online > .container > div > img {
 	 position: absolute;
 	 margin-top: 92px;
 	 left: 807px;
@@ -92,13 +108,20 @@ margin-top: 166px;
  color: #FFEE2E;
 }
 
-.btn_watch_online {
+#watch_btn {
+	top: 626px;
+	left: 983px;
+}
+
+#watch_btn:active {
+	background: #4B9200;
+}
+
+.round_btn {
 width: 298px;
 height: 54px;
 background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
 border-radius: 25px;
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 140%;
@@ -106,19 +129,118 @@ border-style: none;
 text-align: center;
 text-transform: uppercase;
 position: absolute;
-top:  626px;
-left: 983px;
 color: #FFFFFF;
 }
 
-.backstage_wrap {
-background-image: url(../../assets/flower_foto1.png);
-background-repeat: no-repeat;
-width: 293px;
-height: 605px;
-margin-left: 1400px;
-top: 712px;
+.round_btn:active {
+	background: #4B9200;
+}
 
+#backstage_text {
+	position: absolute;
+	left:  915px;
+	top: 920px;
+	width: 465px;
+}
+
+#backstage {
+height: 617px;
+}
+
+.img_cap {
+	position: absolute;
+	top: 920px;
+	left: 219px;
+	width: 609px;
+height: 403px;
+}
+
+.img_flower {
+	position: absolute;
+	left:  1400px;
+}
+
+.cards_container {
+	display: absolute;
+	width: 1225px;
+	height: 872px;
+	margin-top: 183px;
+	margin-bottom: 80px;
+	margin-left: 190px;
+	margin-right: 193px;
+}
+
+.card {
+	box-sizing: border-box;
+	width: 366px;
+	height: 426px;
+	border-radius: 5px;
+	border-color: #FA6F32;
+	display: inline-table;
+	margin-left: 30px;
+	margin-top: 20px;
+	border-style: groove;
+}
+
+.card_text  {
+	text-transform: uppercase;
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: 500;
+	display: inline-flex;
+	padding-left: 10px;
+	padding-bottom: 14px;
+	height: 60px;
+}
+
+.food_icon {
+	padding-top: 13px;
+	padding-left: 110px;
+}
+
+.place {
+	text-transform: none;
+	font-weight: 300;
+	font-size: 15px;
+}
+
+#right_arrow {
+	float: right;
+}
+
+#left_arrow {
+	float: left;
+}
+
+.circle_btn {
+	position: absolute;
+	top: 1946px;
+	width: 62px;
+	height: 62px;
+	background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+	border-radius: 50px;
+	border-style: none;
+}
+
+#left {
+	left: 138px;
+}
+
+#right {
+	left: 1435px;
+}
+
+.circle_btn:active {
+	background: #4B9200;
+}
+
+#choose_btn {
+	left: 651px;
+}
+
+#pick_feed {
+height: 1004px;
+background-color: #FEBDAB;
 }
 
 footer {

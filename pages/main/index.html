@@ -6,53 +6,147 @@
 	<link rel="stylesheet" href="style.css">
 	<title>desktop_petstore</title>
 </head>
-<body>
+ <body>
 	<header>
-		<a href="#"><h1>PetStory <br> online</h1></a>
+		<div id="header_logo">
+		<a href="#"><img id="logo_bamboo" src="../../assets/bamboo.png"><h1>PetStory <br> online</h1></a>
+		</div>
 		<nav>
-			<ul>
-				<li class="nav_item"><a href="#">About</a></li>
+			<ul id = "nav">
+				<li class="nav_item"><a href="#watch_online">About</a></li>
 				<li class="nav_item"><a href="#">Map</a></li>
 				<li class="nav_item"><a href="#">Zoos</a></li>
 				<li class="nav_item"><a href="#">Donate</a></li>
 				<li class="nav_item"><a href="#">Contact us</a></li>
-				<li class="nav_item"><a href="#">Designed by ©</a></li>
+				<li id = "designed" class="nav_item"><a href="https://www.figma.com/file/ypzT9idgAILaSRVRmDAJxn/online-zoo-3-weeks">Designed by ©</a></li> <!-- except last element -->
 			</ul>
 		</nav>
 	</header>
 	<main>
-		<div>
-		<div class="watch_online">
-			<img class = "ellipse" src="../../assets/Ellipse 6.png">
-		<p class="watch">Watch<br>your<br><span class="favorite">favorite</span><br>animal<br>online</p>
-		<button class="btn_watch_online">watсh online</button>
-		</div>
-	</div>
-		<div class="backstage_wrap">
-		<div class="backstage">
-			<!-- <div class="backstage_img">
-			<img class="img_cap" src="../../assets/bamboo-cap.png" alt="bamboo cap">
+	<section id="watch_online">
+		<div class="container">
+			<div>
+				<img src="../../assets/Ellipse 6.png">
+				<p>Watch<br>your<br><span class="favorite">favorite</span><br>animal<br>online</p>
+				<button id="watch_btn" class="round_btn">watсh online</button>
 			</div>
-			<div class="backstage_text">
+		</div>
+	</section>
+	<section id="backstage">
+		<div class="container">
+			<img class="img_cap" src="../../assets/bamboo-cap.png" alt="bamboo cap">
+		<div id="backstage_text">
 				<p><h2>The Backstage of the Wilderness World.</h2>
 				The site was founded on the basis of a volunteer movement to protect and care for animals.<br>
 				How it works<br>
 				The main goal is to help the animals, as well as the nature reserves and zoos where they are kept. We are currently working on video projects targeting pandas in China, eagles on an island near Los Angeles, alligators in Florida and gorillas in the Congo. These have a total of more than 1,500 mammals and reptiles.</p>
-		</div> -->
 		</div>
+		<img class= "img_flower" src="../../assets/flower_foto1.png">
+		</div>
+	</section>
+	<section id="animal_cards">
+		<div class="container">
+			<aside id="left_arrow"><button type="button" id="left" class="circle_btn"><img src="../../assets/Vector_btn_left.png"></button></aside>
+			<aside id="right_arrow"><button type="button" id="right" class="circle_btn"><img src="../../assets/Vector_btn_right.png"></button></aside>
+				<div class="cards_container">
+					<div class="card">
+						<img src="../../assets/pandas.png">
+						<div class="card_text">
+							<p>giant Pandas<br><span class="place">Native to Southwest China</span></p>
+							<img class="food_icon" src="../../assets/banana-bamboo_icon.png">
+						</div>
+					</div>
+					<div class="card">
+						<img src="../../assets/pandas.png">
+						<div class="card_text">
+							<p>giant Pandas<br><span class="place">Native to Southwest China</span></p>
+							<img class="food_icon" src="../../assets/banana-bamboo_icon.png">
+						</div>
+					</div>
+					<div class="card">
+						<img src="../../assets/pandas.png">
+						<div class="card_text">
+							<p>giant Pandas<br><span class="place">Native to Southwest China</span></p>
+							<img class="food_icon" src="../../assets/banana-bamboo_icon.png">
+						</div>
+					</div>
+					<div class="card">
+						<img src="../../assets/pandas.png">
+						<div class="card_text">
+							<p>giant Pandas<br><span class="place">Native to Southwest China</span></p>
+							<img class="food_icon" src="../../assets/banana-bamboo_icon.png">
+						</div>
+					</div>
+					<div class="card">
+						<img src="../../assets/pandas.png">
+						<div class="card_text">
+							<p>giant Pandas<br><span class="place">Native to Southwest China</span></p>
+							<img class="food_icon" src="../../assets/banana-bamboo_icon.png">
+						</div>
+					</div>
+					<div class="card">
+						<img src="../../assets/pandas.png">
+						<div class="card_text">
+							<p>giant Pandas<br><span class="place">Native to Southwest China</span></p>
+							<img class="food_icon" src="../../assets/banana-bamboo_icon.png">
+						</div>
+					</div>
+				</div>
+			<button id="choose_btn" class="round_btn">Choose your favorite</button>
+		</div>
+	</section>
+	<section id="pick_feed">
+		<div class="container">
+			<div class="pink_container">
+				<div>text</div>
+				<div>How it works cards</div>
+				<button class="round_btn">Feed a friend now</button>
+			</div>
+		</div>
+	</section>
+	<section id="testimonials">
+		<div class="container">
+			<p>Testimonials</p>
+			<div class="testimonials_container">
+				<div class="testimonial">
+					<div class="top"></div>
+					<div class="text"></div>
+				</div>
+				<div class="testimonial">
+					<div class="top"></div>
+					<div class="text"></div>
+				</div>
+				<div class="testimonial">
+					<div class="top"></div>
+					<div class="text"></div>
+				</div>
+				<div class="testimonial">
+					<div class="top"></div>
+					<div class="text"></div>
+				</div>
+			</div>
+			<!-- progress bar -->
+			<button class="square_btn">Leav feedback</button>
+		</div>
+	</section>
+</main>
+<footer>
+	<div class="footer_logo"></div>
+	<div id="subscribe">
+		<input type="" name="email">
+		<button class="submit_btn">Submit</button>
 	</div>
-	<div>
-		<div class="pets"></div>
-	</div>
-	<div>
-		<div class="pick_feed"></div>
-	</div>
-	<div>
-		<div class="testimonials"></div>
-	</div>
-	</main>
-	<footer>
-	</footer>
-
+	<button class="square_btn">Donate for volounteers</button>
+	<div>Links to social media</div>
+	<nav>
+		<ul>
+			<li><a href=#>About</a></li>
+			<li><a href=#>Map</li>
+			<li><a href=#>Zoos</li>
+			<li><a href=#>Contact us</li>
+		</ul>
+	</nav>
+<div id="designed">Designed by...</div>
+</footer>
 </body>
 </html>
