@@ -18,7 +18,7 @@
 				<li class="nav_item"><a href="#">Zoos</a></li>
 				<li class="nav_item"><a href="#">Donate</a></li>
 				<li class="nav_item"><a href="#">Contact us</a></li>
-				<li id = "designed" class="nav_item"><a href="https://www.figma.com/file/ypzT9idgAILaSRVRmDAJxn/online-zoo-3-weeks">Designed by ©</a></li> <!-- except last element -->
+				<li id = "designed" class="nav_item"><a href="https://www.figma.com/file/ypzT9idgAILaSRVRmDAJxn/online-zoo-3-weeks">Designed by ©</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -105,7 +105,7 @@
 		</div>
 	</section>
 	<section id="testimonials">
-		<div class="container">
+		<div id="div_testimonials" class="container">
 			<p>Testimonials</p>
 			<div class="testimonials_container">
 				<div class="testimonial">
@@ -121,32 +121,59 @@
 					<div class="text"></div>
 				</div>
 				<div class="testimonial">
-					<div class="top"></div>
-					<div class="text"></div>
+					<div class="top"><img src="../../assets/testimo1.png"><p>Michael John<br>Local Austria • Today</p></div>
+					<div class="text"><p>The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.
+The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.</p></div>
 				</div>
 			</div>
 			<!-- progress bar -->
-			<button class="square_btn">Leav feedback</button>
+			<button class="square_btn">Leave feedback</button>
 		</div>
 	</section>
 </main>
 <footer>
-	<div class="footer_logo"></div>
-	<div id="subscribe">
-		<input type="" name="email">
-		<button class="submit_btn">Submit</button>
-	</div>
-	<button class="square_btn">Donate for volounteers</button>
-	<div>Links to social media</div>
-	<nav>
-		<ul>
-			<li><a href=#>About</a></li>
-			<li><a href=#>Map</li>
-			<li><a href=#>Zoos</li>
-			<li><a href=#>Contact us</li>
-		</ul>
-	</nav>
-<div id="designed">Designed by...</div>
+	<div id="footer_container">
+      <div id="footer_div_1">
+        <div class="logo">
+          <a href="#watch_online"><img src="../../assets/logo_footer.png"/></a>
+        </div>
+        <button id = "donate_btn" class="square_btn">Donate for volunteers</button>
+
+        <div id="social_links">
+          	<div>
+	          	<a href="https://www.facebook.com"><img src="../../assets/facebook.png"></a>
+        	</div>
+          	<div>
+	          	<a href="https://twitter.com"><img src="../../assets/facebook.png"></a>
+          	</div>
+          	<div>
+	          	<a href="https://www.instagram.com"><img src="../../assets/facebook.png"></a>
+          	</div>
+          	<div>
+          		<a href="https://www.youtube.com"><img src="../../assets/facebook.png"></a>
+          	</div>
+        </div>
+      </div>
+      <div id="footer_div_2">
+        <nav>
+          <ul id="footer_nav">
+            <li><a id = "footer_about" class="nav_item" href="#watch_online">About</a></li>
+            <li><a class="nav_item" href="#">Map</a></li>
+            <li><a class="nav_item" href="#">Zoos</a></li>
+            <li><a class="nav_item" href="#">Contact us</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div id="footer_div_3">
+		<div id="subscribe">
+		  <p>Subscribe to our News</p>
+		  <input type="email" placeholder="Enter your email">
+		  <button id="submit_btn" type="submit">Submit</button>
+		</div>
+	<p>Designed by Alisa Samborskaya<br>©RSSchool & ©Yem Digital 2021</p>
+      </div>
+    </div>
+</div>
 </footer>
 </body>
 </html>
