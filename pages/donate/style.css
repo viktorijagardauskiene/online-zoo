@@ -74,180 +74,16 @@ h1 {
 .container {
 	width: 1600px;
 	position: flex;
-	margin: 0px;
+	
 }
 
-#watch_online > .container {
+#watch_online {
 	background-image: url("../../assets/giant_panda.png");
 	background-size: cover;
 	height: 700px;
 	width: 1600px;
 	text-align: center;
 	position: block;
-}
-
-.container > div > p {
-	text-transform: uppercase;
-	color: #FFFFFF;
-	font-weight: 700;
-	font-size: 106.496px;
-	line-height: 75%;
-	text-align: center;
-	position: absolute;
-	left: 880px;
-	margin-top: 166px;
-}
-
-#watch_online > .container > div > img {
-	 position: absolute;
-	 margin-top: 92px;
-	 left: 807px;
-}
-
-.favorite {
- color: #FFEE2E;
-}
-
-#watch_btn {
-	top: 626px;
-	left: 983px;
-}
-
-.round_btn {
-width: 298px;
-height: 54px;
-background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
-border-radius: 25px;
-font-weight: 500;
-font-size: 16px;
-line-height: 140%;
-border-style: none;
-text-align: center;
-text-transform: uppercase;
-position: absolute;
-color: #FFFFFF;
-}
-
-.round_btn:hover {
-	background: #E47209;
-}
-
-.round_btn:active {
-	background: #4B9200;
-}
-
-#backstage_text {
-	position: absolute;
-	left:  915px;
-	top: 920px;
-	width: 465px;
-}
-
-#backstage {
-height: 617px;
-}
-
-.img_cap {
-	position: absolute;
-	top: 920px;
-	left: 219px;
-	width: 609px;
-height: 403px;
-}
-
-.img_flower {
-	position: absolute;
-	left:  1400px;
-}
-
-#animal_cards > div.container {
-	height: 1200px;
-}
-
-.cards_container {
-	display: absolute;
-	width: 1225px;
-	height: 872px;
-	margin-top: 183px;
-	margin-bottom: 80px;
-	margin-left: 190px;
-	margin-right: 193px;
-}
-
-.card {
-	box-sizing: border-box;
-	width: 366px;
-	height: 426px;
-	border-radius: 5px;
-	display: inline-table;
-	margin-left: 30px;
-	margin-top: 20px;
-	border: 1px solid #FA6F32;
-}
-
-.card_text  {
-	text-transform: uppercase;
-	font-size: 16px;
-	line-height: 22px;
-	font-weight: 500;
-	display: inline-flex;
-	padding-left: 10px;
-	padding-bottom: 14px;
-	height: 60px;
-}
-
-.food_icon {
-	padding-top: 13px;
-	padding-left: 110px;
-}
-
-.place {
-	text-transform: none;
-	font-weight: 300;
-	font-size: 15px;
-}
-
-#right_arrow {
-	float: right;
-}
-
-#left_arrow {
-	float: left;
-}
-
-.circle_btn {
-	position: absolute;
-	top: 1946px;
-	width: 62px;
-	height: 62px;
-	background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
-	border-radius: 50px;
-	border-style: none;
-}
-
-#left {
-	left: 138px;
-}
-
-#right {
-	left: 1435px;
-}
-
-.circle_btn:hover {
-	background: #E47209;
-}
-
-.circle_btn:active {
-	background: #4B9200;
-}
-
-#choose_btn {
-	left: 651px;
-}
-
-#pick_feed {
-height: 1004px;
-background-color: #FEBDAB;
 }
 
 .square_btn {
@@ -272,20 +108,180 @@ background-color: #FEBDAB;
 	background: #4B9200;
 }
 
-#div_testimonials {
-	height: 1362px;
+.round_btn {
+width: 298px;
+height: 54px;
+background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+border-radius: 25px;
+font-weight: 500;
+font-size: 16px;
+line-height: 140%;
+border-style: none;
+text-align: center;
+text-transform: uppercase;
+position: flex;
+color: #FFFFFF;
 }
 
-#testimonial > .testimonial {
-	box-sizing: border-box;
-	position: absolute;
-	width: 268px;
-	height: 391px;
-	top: 234px;
-	background: #F1F3F2;
-	border-radius: 20px;
-	border: 2px solid #EAF7FE;
+.round_btn:hover {
+	background: #E47209;
 }
+
+.round_btn:active {
+	background: #4B9200;
+}
+
+#donation_info > div.container {
+	height: 1482px;
+	background: #FEBDAB;
+	text-align: center;
+}
+
+.container_text {
+	width: 1160px;
+	margin-left: 220px;
+	height: 338px;
+	text-align: left;
+}
+
+.container_text > h3 {
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 47px;
+	color: #FFFFFF;
+	padding-top: 40px;
+	padding-bottom: 10px;
+}
+
+.container_text > p {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 22px;
+	color: #FFFFFF;
+	padding-bottom: 40px;
+}
+
+#p_donation_information {
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 47px;
+	color: #FE9013;
+	padding-bottom: 60px;
+	float: left;
+}
+
+.inner_container {
+	position: flex;
+	height: 964px;
+	width: 1160px;
+	margin-left: 220px;
+	right: 220px;
+	top: 804px;
+	background: rgba(255, 255, 255, 0.52);
+	border-radius: 20px;
+	text-align: center;
+}
+
+.inner_container > h2 {
+font-weight: 400;
+font-size: 48px;
+line-height: 58px;
+text-align: center;
+color: #FE9013;
+padding-top: 40px;
+padding-bottom: 20px;
+}
+
+.inner_container > p {
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+color: #333B41;
+}
+
+#panda_diet {
+	margin-bottom: 87px;
+}
+
+#panda_widget_text {
+display: inline-flex;
+
+}
+
+#panda_widget_text > p > span {
+	font-weight: 500;
+font-size: 72px;
+line-height: 58px;
+text-align: center;
+text-transform: uppercase;
+color: #000000;
+}
+
+.panda_widget {
+	display: inline-flex;
+}
+
+#X_icon {
+width: 14px;
+height: 14px;
+left: 385px;
+top: 297px;
+}
+
+.amount_line {
+
+}
+
+#bottom {
+	display: block;
+	height: 300px;
+	padding-top: 30px;
+}
+
+#amount {
+	background-color: #;
+	width: 228px;
+	height: 42px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
+	color: #929699;
+	border: 1px solid #929699;
+	border-radius: 2px;
+	margin-bottom: 30px;
+}
+
+#amount::-webkit-outer-spin-button,
+#amount::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+ }
+
+#amount:placeholder {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
+	color: #929699;
+}
+
+#amount:focus {
+	outline:  none;
+	border: 0.7px solid #4B9200;
+}
+
+.radio_input > label {
+	margin-right: 50px;
+}
+
+.radio_input > input {
+	margin-right: 10px;
+}
+
+#orange_btn {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
 
 footer {
 	background: #111115;
@@ -301,6 +297,7 @@ footer {
 }
 
 #footer_div_1 {
+	margin-right:0;
 	width: 367px;
 }
 
@@ -317,6 +314,7 @@ footer {
 	display: flex;
 	justify-content: flex-start;
 	margin-left: 10px;
+	margin-top: 5px;
 }
 
 #social_links > div > a > p {
@@ -329,7 +327,7 @@ footer {
 }
 
 #social_links > div > a > img {
-padding-bottom: 5px;
+	margin: 0;
 }
 
 #donate_btn {
@@ -338,6 +336,7 @@ padding-bottom: 5px;
 }
 
 #footer_div_2 {
+	margin: 0;
 	width: 367px;
 }
 
@@ -358,6 +357,7 @@ a.nav_item:hover {
 }
 
 #footer_div_3 {
+  margin-left: 0;
   width: 367px;
 }
 
